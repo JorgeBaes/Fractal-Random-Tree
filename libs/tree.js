@@ -575,8 +575,8 @@ function atribute_values(){
     s_leave_range.innerText = `Leave Range | ${parseFloat(leaveRange-1).toFixed(0)}`
     s_leave_probability.innerText = `Leave Probabiliby | ${parseFloat(leaveProbability).toFixed(2)}`
     s_leave_mode.innerText = `Leave Mode | ${leaveMode}`
-    document.getElementById("s_a_param").innerText = `Curve Parameter | ${a.toFixed(2)}`
-    document.getElementById("s_b_param").innerText = `Curve Parameter | ${b.toFixed(2)}`
+    document.getElementById("s_a_param").innerText = `Curve Parameter | ${parseFloat(a).toFixed(2)}`
+    document.getElementById("s_b_param").innerText = `Curve Parameter | ${parseFloat(b).toFixed(2)}`
     document.getElementById("s_leave_rotation").innerText = `Leave Rotation | ${(leaveRotation*180/pi).toFixed(0)}`
    
 
